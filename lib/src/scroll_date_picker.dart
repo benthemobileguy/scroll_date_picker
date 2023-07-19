@@ -12,8 +12,8 @@ class ScrollDatePicker extends StatefulWidget {
     DateTime? maximumDate,
     required this.onDateTimeChanged,
     Locale? locale,
-    final TextStyle? fontStyle; 
-    final Color? itemBackground;
+    final TextStyle? fontStyle,
+    final Color? itemBackground,
     DatePickerOptions? options,
     DatePickerScrollViewOptions? scrollViewOptions,
     this.indicator,
